@@ -1,5 +1,6 @@
 /*Überschriften*/
-h1, body {
+h1,
+body {
   color: darkslategrey;
   background-color: lavender;
   margin-left: 200px;
@@ -8,8 +9,24 @@ h1, body {
   margin-bottom: auto;
 }
 
+/* /**Beispiel für Gruppierung*/
+/* p,
+div,
+li {
+  font-weight: bold;
+} */
 
-/*Texte*/
+/**Beispiel für Verschachtelung*/
+/* p b {
+  color: #02d92f;
+} */
+
+/*Beispiel für Sammeleigenschaften*/
+/* div {
+  border: 2px solid #ff0000;
+} */
+
+
 
 
 
