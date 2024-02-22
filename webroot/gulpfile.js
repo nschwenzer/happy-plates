@@ -6,9 +6,9 @@ var browserSync = require('browser-sync').create();
 gulp.task('default', function() {
 
     // BrowserSync Konfiguration - Dateien unterhalb von webroot-Verzeichnis ausliefern
-    browserSync.init({
-        server: "./webroot"
-    });
+    // browserSync.init({
+    //     server: "./webroot"
+    // });
 
     // Alle Dateien unterhalb von webroot überwachen und bei Änderungen per Browser-Sync neuladen
     gulp.watch("./webroot/**").on('change', browserSync.reload);
