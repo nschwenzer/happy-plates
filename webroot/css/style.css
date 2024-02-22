@@ -1,5 +1,5 @@
 /*Überschriften*/
-h1,
+/* h1,
 body {
   color: darkslategrey;
   background-color: lavender;
@@ -7,31 +7,104 @@ body {
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
-}
-
-/* /**Beispiel für Gruppierung*/
-/* p,
-div,
-li {
-  font-weight: bold;
 } */
 
-/**Beispiel für Verschachtelung*/
-/* p b {
-  color: #02d92f;
-} */
-
-/*Beispiel für Sammeleigenschaften*/
-/* div {
-  border: 2px solid #ff0000;
-} */
-
-
-
-
-
-/*Alle HTML ELemnte bekommen diesen style:*/
+/* Alle HTML ELemnte bekommen diesen style:
 * {
   font-family: 'Courier New', Courier, monospace;
   font-size: 20pt;
+} */
+
+
+/* Reset some default styles for better consistency across browsers */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set basic styling for the body */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #444;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Main Content Styles */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Featured Post Styles */
+#featured-post img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Daily Meal Exchange Gallery Styles */
+#gallery {
+  margin-top: 20px;
+}
+
+.meal-post {
+  margin-bottom: 20px;
+}
+
+.meal-post img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Weekly Challenges Styles */
+#challenges {
+  margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #444;
+  color: #fff;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+  main {
+      padding: 10px;
+  }
 }

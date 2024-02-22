@@ -1,57 +1,91 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>happy-plates</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>happy-plates</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>Home Page</title>
-  <meta name="description" content="Home Page" />
-  <meta name="author" content="Natalia Schwenzer" />
-  <link rel="stylesheet" href="./css/style.css" />
-</head>
+  <!-- Header Section -->
+  <body>
+    <header>
+      <h1>happy plates</h1>
+      <p>
+        Folgt uns, um täglich inspiriert zu werden und lernt, wie einfach es
+        sein kann, gesund und lecker zu essen.
+      </p>
+    </header>
 
-<body>
-  <header>
-    <h1>Willkommen auf unserer Seite!</h1>
-  </header>
+    <!-- Navigation Section -->
+    <nav>
+      <ul>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#aboutus">About us</a></li>
+        <li><a href="#community">Community</a></li>
+      </ul>
+    </nav>
 
-  <section>
-    <p>
-      <img src="./images/welcome-plate.jpg" alt="Avo Brot Ei" width="700">
-    </p>
+    <!-- Main Content Section -->
+    <main>
+      <!-- Featured Post Section -->
+      <section id="featured-post">
+        <h2>Featured Post</h2>
+        <!-- Add featured post content here -->
+        <img
+          src="./images/2024/aesthetic-2024 (3).jpg"
+          alt="Featured Meal Image"
+        />
+        <!-- Description of the featured post goes here. -->
+        <p>Inspiration in der Tasse in den kalten, dunklen Jahreszeit.</p>
+      </section>
 
-    <p>
-      Wir sind Natalia und Anastasia und wir sind beste Freundinnen. <br>
-      Wir teilen eine gemeinsame Liebe
-      für gesundes
-      Essen und Zubereitung der Mahlzeiten in eigener Küche. Wir glauben daran, dass
-      eine ausgewogene Ernährung der
-      Schlüssel zu einem glücklichen Leben ist und teilen gerne unsere Lieblingsrezepte,
-      Tipps und Tricks zur Zubereitung von Mahlzeiten sowie unser Wissen über
-      die gesundheitlichen
-      Vorteile von verschiedenen Lebensmitteln.
-    </p>
-  </section>
+      <!-- Daily Meal Exchange Gallery Section -->
+      <section id="gallery">
+        <h2>Daily Meal Exchange Gallery</h2>
+        <!-- Add gallery content here -->
+        <!-- Use a loop to display multiple posts -->
+        <div class="meal-post">
+          <img src="./images/2024/basic-2024 (1).JPG" alt="Meal Image 1" />
+          <p>Description of Meal 1.</p>
+        </div>
+        <div class="meal-post">
+          <img src="./images/2024/basic-2024 (2).JPG" alt="Avo Brot Ei" />
+          <p>Description of Meal 2.</p>
+        </div>
+        <!-- Add more posts as needed -->
+      </section>
 
-  <script src="./js/main.js"></script>
-</body>
+      <!-- About Us Section -->
+      <section id="aboutus">
+        <h2>Über uns</h2>
+        <!-- Add about us content here -->
+        <p>
+          Wir sind Natalia und Anastasia und wir sind beste Freundinnen. Wir
+          teilen eine gemeinsame Liebe für gesundes Essen und Zubereitung der
+          Mahlzeiten in eigener Küche. Wir glauben daran, dass eine ausgewogene
+          Ernährung der Schlüssel zu einem glücklichen Leben ist und teilen
+          gerne unsere Lieblingsrezepte, Tipps und Tricks zur Zubereitung von
+          Mahlzeiten sowie unser Wissen über die gesundheitlichen Vorteile von
+          verschiedenen Lebensmitteln.
+        </p>
+        <div class="meal-post">
+          <img src="./images/2024/aesthetic-2024 (1).jpg" alt="Avo Brot Ei" />
+          <p>
+            Kulinarische Abenteuer einer Bäckerin und einer Programmiererin.
+          </p>
+        </div>
+      </section>
+    </main>
 
-<footer>
-  <p>
-    Folgt uns, um täglich inspiriert zu werden und lernt, wie einfach es sein kann,
-    gesund und lecker zu essen, wenn man sich auf eine ausgewogene Ernährung konzentriert.
-  </p>
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2024 happy-plates. All rights reserved.</p>
+    </footer>
 
-  <nav>
-    <h2>Navigier hier zu unseren weiteren Inhalten</h2>
-    <ul>
-      <li><a href="#">Home - Hier kommt später LOGO statt Wort Home und dieser Punkt wird gelöscht</a></li>
-      <li><a href="#">Unsere Philosophie</a></li>
-      <li><a href=":">Über uns</a></li>
-      <li><a href=":">Fotos</a></li>
-      <li><a href="#">Kontakt</a></li>
-    </ul>
-  </nav>
-  &copy;happy-plates
-</footer>
-
+    <!-- JavaScript Links -->
+    <script src="./js/main.js"></script>
+  </body>
 </html>
