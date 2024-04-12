@@ -12,6 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Add more JavaScript code as needed for your specific requirements
+    // Here comes more JavaScript code 
 });
 
